@@ -1,0 +1,84 @@
+{
+  "routerMap": [
+    {
+      "name": "MultiTouchPage",
+      "pageSourceFile": "src/main/ets/pages/MultiTouchPage.ets",
+      "buildFunction": "MultiTouchPageBuilder",
+      "data": {
+        "description": "A page for multi touch detection"
+      }
+    },
+    {
+      "name": "TapGesturePage",
+      "pageSourceFile": "src/main/ets/pages/TapGesturePage.ets",
+      "buildFunction": "TapGesturePageBuilder",
+      "data": {
+        "description": "A page for detection of tap gesture"
+      }
+    },
+    {
+      "name": "LongPressGesturePage",
+      "pageSourceFile": "src/main/ets/pages/LongPressGesturePage.ets",
+      "buildFunction": "LongPressGesturePageBuilder",
+      "data": {
+        "description": "A page for detection of long press gesture"
+      }
+    },
+    {
+      "name": "PanGesturePage",
+      "pageSourceFile": "src/main/ets/pages/PanGesturePage.ets",
+      "buildFunction": "PanGesturePageBuilder",
+      "data": {
+        "description": "A page for detection of pan gesture"
+      }
+    },
+    {
+      "name": "PinchGesturePage",
+      "pageSourceFile": "src/main/ets/pages/PinchGesturePage.ets",
+      "buildFunction": "PinchGesturePageBuilder",
+      "data": {
+        "description": "A page for detection of pinch gesture"
+      }
+    },
+    {
+      "name": "RotationGesturePage",
+      "pageSourceFile": "src/main/ets/pages/RotationGesturePage.ets",
+      "buildFunction": "RotationGesturePageBuilder",
+      "data": {
+        "description": "A page for detection of rotation gesture"
+      }
+    },
+    {
+      "name": "SwipeGesturePage",
+      "pageSourceFile": "src/main/ets/pages/SwipeGesturePage.ets",
+      "buildFunction": "SwipeGesturePageBuilder",
+      "data": {
+        "description": "A page for detection of swipe gesture"
+      }
+    },
+    {
+      "name": "SequentialCombinedGesturePage",
+      "pageSourceFile": "src/main/ets/pages/SequentialCombinedGesturePage.ets",
+      "buildFunction": "SequentialCombinedGesturePageBuilder",
+      "data": {
+        "description": "A page for detection of sequential combined gesture"
+      }
+    },
+    {
+      "name": "ParallelCombinedGesturePage",
+      "pageSourceFile": "src/main/ets/pages/ParallelCombinedGesturePage.ets",
+      "buildFunction": "ParallelCombinedGesturePageBuilder",
+      "data": {
+        "description": "A page for detection of sequential combined gesture"
+      }
+    },
+    {
+      "name": "CustomGesturePage",
+      "pageSourceFile": "src/main/ets/pages/CustomGesturePage.ets",
+      "buildFunction": "CustomGesturePageBuilder",
+      "data": {
+        "description": "A page for detection of custom gesture"
+      }
+    }
+  ]
+}
